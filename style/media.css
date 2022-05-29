@@ -1,0 +1,133 @@
+@media(max-width: 1051px){
+    .main-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 879px){
+    .class-1{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    .p-btn-right{
+        line-height: 15px;
+        font-size: 10px;
+        max-width: 130px;
+        width: 100%;
+    }
+    .p-btn-left{
+        line-height: 15px;
+        font-size: 10px;
+        max-width: 130px;
+        width: 100%;
+    }
+    .img-botton{
+        max-width: 130px;
+        width: 100%;
+    }
+    .img-top{
+        max-width: 300px;
+        width: 100%;
+    }
+    .p-top{
+        line-height: 15px;
+        font-size: 10px;
+        max-width: 170px;
+        width: 100%;
+        padding: 0 0;
+    }
+    .p-middle{
+        line-height: 15px;
+        font-size: 10px;
+        max-width: 170px;
+        width: 100%;
+        padding: 0 0;
+    }
+    .img-middle{
+        max-width: 230px;
+        width: 100%;
+    }
+    .header{
+        height: 450px;
+    }
+}
+@media(max-width: 647px){
+    .header-title{
+        font-size: 60px;
+        line-height: 35px;
+    }
+    .p-middle{
+        margin: 0;
+    }
+    .p-btn-left{
+        margin-right: 10px;
+    }
+    .p-btn-right{
+        margin-left: 10px;
+    }
+    .p-btn-left::after{
+        width: 20px;
+        right: -30px;
+    }
+    .p-btn-right::after{
+        width: 20px;
+        left: -30px;
+    }
+    .nav-ftr1{
+        padding: 45px 0;
+    }
+}
+@media(max-width: 500px){
+    .btn-list{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .ftr-link{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .nav3{
+        display: flex;
+    }
+    .nav-list{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-link{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .p-btn-left::after{
+        width: 0px;
+    }
+    .p-btn-right::after{
+        width: 0px;
+    }
+    .main-button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .p-btn-left{
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .p-btn-right{
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width: 411px){
+    .nav2{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
